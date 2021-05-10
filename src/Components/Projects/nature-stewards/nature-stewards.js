@@ -27,6 +27,10 @@ class NatureStewards extends Component {
                 
                     <div id="overview">
                         <h4>Nature Stewards: Project Overview</h4>
+                        <p>
+                            I worked in a three person group to work on a nature-centered
+                            design problem from ideation to prototyping. 
+                        </p>
                         <div className="overview-content">
                             <div>
                                 <h5>Design Question</h5>
@@ -61,23 +65,25 @@ class NatureStewards extends Component {
                         <p>
                             We started the design process through semi-structured interviews of our target users 
                             (college-aged hikers) and competitive analysis of products in our field of interest. 
+                            Each team member was in charge of their own independent interviews and product analysis.
                             We centered our investigation around finding out what the hiking experience is like and 
-                            discovering areas where it could be improved. We paired our interview data with secondary 
-                            sources detailing human impact left on trails and trailheads.
+                            discovering areas where it could be improved. After our independent research we got
+                            together, looked over our data, and paired it with secondary sources detailing
+                            human impact left on trails and trailheads.
                         </p>
                         <h5>Main Takeaways</h5>
                         <ul>
-                            <li>
+                            <li><p>
                                 Trash overflow and resulting litter is a bigger issue 
                                 at trailheads rather than on the trail itself.
-                            </li>
-                            <li>
+                            </p></li>
+                            <li><p>
                                 Trailheads have other maintenance issues such as bathroom facilities 
                                 that are dirty or without toilet paper.
-                            </li>
-                            <li>
+                            </p></li>
+                            <li><p>
                                 University students generally like to perform activities in groups.
-                            </li>
+                            </p></li>
                         </ul>
                         <p>
                             This initial research was important because it gave us real information 
@@ -86,7 +92,7 @@ class NatureStewards extends Component {
                             pain points. With our research findings, we could start defining our target audience.
                         </p>
                         <button className="small-button">My research</button>
-                        <button className="small-button">Competitive Analysis</button>
+                        <button className="small-button">My competitive analysis</button>
                     </div>
 
                     <div id="personas">
@@ -101,6 +107,10 @@ class NatureStewards extends Component {
                             hiker who is just getting started. Most of the information in the personas was based 
                             on the user research we conducted, but a few assumptions had to be made to create a 
                             holistic (and realistic) personality. 
+                        </p>
+                        <p>
+                            I contributed to the overall design of these personas and in editing the 
+                            finalized written content. 
                         </p>
                         <div className="overview-content">
                             <img className="persona" src={Alex} alt="Persona of an experienced hiker, Alex"/>
