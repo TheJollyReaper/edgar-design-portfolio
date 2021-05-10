@@ -1,0 +1,56 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    height: 85vh;
+    /* background-color: #5B7B7A; */
+}
+
+.grid-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    height: 15rem;
+    width: 25rem;
+    background-color: #5B7B7A;
+    margin: .5rem;
+    margin-top: 6rem;
+    /* color: #3C887E; */
+    /* color:red; */
+    text-align: center;
+    line-height: 2rem;
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.ns-card {
+    background-image: url('../../images/nature-stewards-card.svg');
+    color: black;
+}
+
+.ns-card h6{
+    transform: translate(0, -2.7rem);
+}
+
+.skills {
+    position: relative;
+    top: 2.6rem;
+    color: white;
+    font-size: 1rem;
+}
+
+/* Mobile screens */
+@media only screen and (max-width: 480px) {
+    .grid-row {
+        flex-direction: column;
+    }
+
+    .skills {
+        top: 5.25rem;
+    }
+  }

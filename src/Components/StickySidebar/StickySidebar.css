@@ -1,0 +1,33 @@
+.sidebar {
+    border: 3px inset black;
+    border-color: #E0F2E9;
+    /* background-color: #3C887E; */
+    border-radius: 5px;
+    width: 15rem;
+    padding: .25rem;
+    padding-left: 0;    
+    position: relative;
+    left: 3.75rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 17.5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidelink {
+    padding-left: .5rem;
+    list-style: none;
+    line-height: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.active {
+    color: #e9b095  ;
+}
+
+.sidelink:hover {
+    color: #CEB5A7;
+    cursor: pointer;
+}

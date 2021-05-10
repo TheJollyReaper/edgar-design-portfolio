@@ -1,0 +1,46 @@
+.nav {
+    background-color: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5vw;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    font-size: 2.5vh;
+    padding-right: 10vw;
+}
+
+.link {
+    padding-right: 3vw;
+    font-size: 3vh;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-links li:hover {
+    color: #CEB5A7;
+    cursor: pointer;
+}
+
+.icon {
+    padding-right: 6vw;
+    font-size: 5vh;
+}
+
+.mobile-dropdown {
+    width: 100vw;
+    height: 100vh;
+    background-color: #172c2b;
+    color: #CEB5A7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-dropdown li {
+    text-align: center;
+    list-style: none;
+}

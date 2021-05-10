@@ -1,0 +1,85 @@
+.content {
+    position: relative;
+    left: 22.5rem;
+    top: -24.5rem;
+    width: 60%;
+    line-height: 1.25rem;
+}
+
+.content h5 {
+    font-size: 1.25vmax;
+}
+
+.content h4 {
+    font-size: 2vmax;
+}
+
+.small-button {
+    font-size: 1vmax;
+    margin-right: 1rem;
+}
+
+.overview-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.persona {
+    height: 20rem;
+    margin-right: 1rem;
+}
+
+.map {
+    height: 30em;
+}
+
+.lofi {
+    margin-top: 1rem;
+    width: 12rem;
+    margin-right: 1rem;
+}
+
+.workflow {
+    width: 70vw;
+}
+
+/* Mobile screens */
+@media only screen and (max-width: 480px) {
+    .content {
+        width: 95%;
+        left: 0;
+        top: 0rem;
+        padding: .3rem;
+    }
+
+    .overview-content {
+        flex-direction: column;
+    }
+
+    .content h5 {
+        font-size: 2.5vmax;
+        padding-bottom: 0;
+        margin-bottom: 0rem;
+    }
+
+    .content h4 {
+        font-size: 3vmax;
+        padding-bottom: 0;
+        margin-bottom: 0rem;
+    }
+
+    .persona {
+        margin-bottom: -3rem;
+    }
+
+    .map {
+        width: 90vw;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.flex-col-right {
+    width: 30rem;
+    line-height: .25rem;
+}
