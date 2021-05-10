@@ -9,12 +9,29 @@
     font-size: 2vmax;
 }
 
-.icon {
+.social-icon {
     font-size: 5rem;
     margin: 0;
     padding: 0;
 }
 
-.icon:hover {
+.social-icon:hover {
     color: #CEB5A7;
+    cursor: pointer
+}
+
+/* Mobile screens */
+@media only screen and (max-width: 480px) {
+    .about {
+        width: 90vw;
+        margin-left: 0;
+        padding: .75rem;
+        line-height: 1.5rem;
+    }
+
+    .social-icon {
+        font-size: 3.5rem;
+        margin: 0;
+        padding: 0;
+    }
 }

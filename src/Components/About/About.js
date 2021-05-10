@@ -11,8 +11,8 @@ function about() {
                 updating my fantasy football website, or thinking up ideas for a website or video game.
             </h5>
             <div style={{display:"flex"}}>
-                <FaLinkedin className="icon"/>
-                <FaTwitterSquare className="icon"/>
+                <FaLinkedin onClick={() => window.open('https://www.linkedin.com/in/edgar-lopez-832740174/')} className="social-icon"/>
+                <FaTwitterSquare className="social-icon"/>
             </div>
         </div>
     )
