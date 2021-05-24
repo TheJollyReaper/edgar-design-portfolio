@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import StickySidebar from '../../StickySidebar/StickySidebar.js';
+import ImageGallery from 'react-image-gallery';
 import './nature-stewards.css';
 // import 'react-slideshow-image/dist/styles.css'
 import Alex from '../../../images/alex.svg'
@@ -52,10 +53,12 @@ class NatureStewards extends Component {
                                     11 Weeks
                                 </p>
                                 <h5>Tech and Tools</h5>
-                                <p>Figma</p>
-                                <p>Slack</p>
-                                <p>Google Docs</p>
-                                <p>Pen/pencil</p>
+                                <ul>
+                                    <li><p>Figma</p></li>
+                                    <li><p>Slack</p></li>
+                                    <li><p>Google Docs</p></li>
+                                   <li> <p>Pen/pencil</p></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -113,8 +116,9 @@ class NatureStewards extends Component {
                             finalized written content. 
                         </p>
                         <div className="overview-content">
-                            <img className="persona" src={Alex} alt="Persona of an experienced hiker, Alex"/>
-                            <img className="persona" src={Xela} alt="Persona of a novice hiker, Xela"/>   
+                            {/* <img className="persona" src={Alex} alt="Persona of an experienced hiker, Alex"/> */}
+                            {/* <img className="persona" src={Xela} alt="Persona of a novice hiker, Xela"/>    */}
+                            <ImageGallery items={[{"original":Alex},{"original":Xela}]}/>
                         </div>
                     </div>
 
@@ -293,10 +297,11 @@ class NatureStewards extends Component {
                             received feedback until it reached its current state.
                         </p>
                         <div className="content-overview">
-                            <img className="lofi" src={Hifi1}/>
+                        <iframe width="100%" height="800rem" src={"https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FiSIT2rRch1qc3yp8IbcIMn%2FHi-Fi-Prototype%3Fkind%3D%26node-id%3D185%253A1359%26scaling%3Dscale-down%26viewport%3D3020%252C-2268%252C1.2202279567718506"} allowfullscreen></iframe>                            
+                        {/* <img className="lofi" src={Hifi1}/>
                             <img className="lofi" src={Hifi2}/>
                             <img className="lofi" src={Hifi3}/>
-                            <img className="lofi" src={Hifi4}/>
+                            <img className="lofi" src={Hifi4}/> */}
                         </div>
                     </div>
 
@@ -309,7 +314,7 @@ class NatureStewards extends Component {
                             forest fires. However, by iterating through the user-centered design process, our final project 
                             ended up as a volunteer app focused on improving trailhead maintenance by getting hikers involved in clean up. 
                         </p>
-                        <p>If Done Again</p>
+                        <h6>If Done Again</h6>
                         <p>
                             If our team reiterated on this solution, we would love to dive deep into the app’s incentive, one of 
                             the key elements missing in our current prototype. By the end of the process, we had created a tool to 
@@ -318,7 +323,7 @@ class NatureStewards extends Component {
                             on this facet: What do the users gain from this experience? What motivates students to volunteer? And how 
                             can we provide a fair incentive to all those that wish to participate?
                         </p>
-                        <p>If We Had More Time</p>
+                        <h6>If We Had More Time</h6>
                         <p>
                             If given more time, our team would also have benefited greatly from another round of research. 
                             Because our project ideas shifted radically, much of our preliminary research was irrelevant by 
@@ -327,7 +332,7 @@ class NatureStewards extends Component {
                             at trailheads. We would have also liked to interview parks rangers that manage trailheads on what they 
                             think about current maintenance, issues, and volunteership.
                         </p>
-                        <p>Challenges</p>
+                        <h6>Challenges</h6>
                         <p>
                             The most challenging part about this project was time and keeping things moving. Ten weeks is not a lot 
                             of time to create a design from start to finish so we did not have the luxury of being able to second 

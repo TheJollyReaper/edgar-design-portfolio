@@ -1,3 +1,5 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 .content {
     position: relative;
     left: 22.5rem;
@@ -30,7 +32,7 @@
 }
 
 .map {
-    height: 30em;
+    height: 30rem;
 }
 
 .lofi {
@@ -57,7 +59,7 @@
     }
 
     .content h5 {
-        font-size: 2.5vmax;
+        font-size: 2.6vmax;
         padding-bottom: 0;
         margin-bottom: 0rem;
     }
@@ -68,6 +70,10 @@
         margin-bottom: 0rem;
     }
 
+    .content h6 {
+        font-size: 2.75vmax;
+    }
+
     .persona {
         margin-bottom: -3rem;
     }
@@ -76,6 +82,13 @@
         width: 90vw;
         padding: 0;
         margin: 0;
+    }
+
+    .small-button {
+        font-size: 3vmax;
+        margin-bottom: .25rem;
+        margin-top: .25rem;
+        margin-right: 1rem;
     }
 }
 
