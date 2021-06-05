@@ -15,7 +15,7 @@ function App() {
           <Route exact path='/'>
             <div className="body">
               <h3>My name is Edgar Lopez</h3>
-              <h3>Front-end developer and UX designer</h3>
+              <h3>Front-end developer and UX designer based in the greater Seattle area</h3>
               <Link style={{textDecoration: "none", color:"inherit"}} to={'/projects'}>
                   <button>See Work</button>
               </Link>
