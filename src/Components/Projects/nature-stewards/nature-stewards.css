@@ -95,4 +95,5 @@
 .flex-col-right {
     width: 30rem;
     line-height: .25rem;
+    margin-left: .65rem;  
 }
