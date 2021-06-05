@@ -1,0 +1,52 @@
+.contact-form {
+    width: 90vw;
+    display: flex;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: horizontal;
+}
+
+h4 {
+    margin-bottom: 1rem;
+}
+
+input, .message {
+    border: 3px inset #E0F2E9;
+    background: #E0F2E9;
+    color: black;
+}
+
+input {
+    height: 2rem;
+    text-align: center;
+    margin: .2rem;
+    font-size: 1rem;
+}
+
+.message{
+    width: 30vw;
+    height: 8rem;
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+    }
+
+    input {
+        font-size: .75rem;
+    }
+
+    .message {
+        width: inherit;
+        font-size: 1rem;
+    }
+}

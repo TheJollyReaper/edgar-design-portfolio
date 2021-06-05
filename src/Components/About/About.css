@@ -20,6 +20,10 @@
     cursor: pointer
 }
 
+.resume-button {
+    height: 3rem;
+}
+
 /* Mobile screens */
 @media only screen and (max-width: 480px) {
     .about {
